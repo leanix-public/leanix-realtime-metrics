@@ -1,14 +1,9 @@
 from os import environ
-import datetime
-import logging
 import json
 import lxpy
 import datetime
 import requests
-import locale
-import pandas as pd
 
-import azure.functions as func
 
 def getAccess():
     with open('accessT.json') as json_file:
